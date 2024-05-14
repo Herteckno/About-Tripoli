@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.nav-text {
+    font-family: 'Poppins', sans-serif;
+    margin-right: 40px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    color: rgb(52, 52, 52);
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 300ms ease-in;
+    text-decoration: none;
+}
+
+.nav-text:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.nav-bar {
+    background-color: rgb(250, 250, 250);
+    opacity: 95%;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+}
+
+.iphone-15-pro-img {
+    width: 100%;
+    height: 600px;
+    margin: 0px;
+}
+
+.apple-logo {
+    margin-top: 3px;
+    width: 17px;
+    height: 17px;
+    transition: all 300ms ease-in;
+    cursor: pointer;
+}
+
+.apple-logo:hover {
+    content: url("images/logo-apple.svg");
+}
+
+.side-icons {
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.search-ch:hover {
+    content: url("images/search-24\ \(1\).svg");
+}
+
+.bag-ag:hover {
+    content: url("images/bag-outline.svg");
+}
+
+.sales {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.sales-p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(33, 33, 33);
+}
+
+.one {
+    color: rgb(33, 33, 33);
+    transition: all 100ms ease-in;
+    text-decoration: none;
+}
+
+.one:hover {
+    color: #1573D0;
+}
+
+.one-shop {
+    color: #1573D0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.one-shop:hover {
+    text-decoration:underline;
+}
+
+.iphone-15 {
+    background-image: url("images/Trablous.jpeg");
+    width: 100%;
+    height:400px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.iphone-15-wall {
+    background-image: url("images/Al-Mansouri_Grand_Mosque.jpeg");
+}
+
+.description-iphone {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.smaller-h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigger {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.black {
+    color: black;
+}
+
+.watch-9-wall {
+    background-image: url("images/apple-watch-series-9.jpg");
+}
+
+.whiter {
+    color: white;
+}
+
+.logo-apple-watch {
+    width: 44px;
+    height: 44px;
+}
+
+.redder {
+    color: rgb(196, 22, 23);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.watch-ultra-2-wall {
+    background-image: url("images/Al-Mansouri_Grand_Mosque.jpeg");
+    width: 49%;
+    height: 600px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.oranger {
+    color: rgb(253, 111, 27);
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.smaller-h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.smaller-desc {
+    font-size: 18px;
+}
+
+.smaller-img {
+    width: 30px;
+    margin-top: 10px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.smaller-a {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.first-row, .row-third {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-watches {
+    display: flex;
+    flex-direction: column;
+}
+
+.watch-9-carbon-wall {
+    background-image: url("images/khan\ al\ saboun.jpg");
+    width: 59%;
+    height: 600px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.bigger-img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.small-h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.shop-at-apple-wall {
+    background-image: url("images/shop-at-apple.jpg");
+}
+
+.second-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.grey-er {
+    color: rgb(29, 29, 29);
+}
+
+.s-h1 {
+    font-size: 40px;
+}
+
+.promo-wall {
+    background-image: url("images/promo_iphone_tradein__bugw15ka691e_large.jpg");
+}
+
+.logo-trade-in {
+    margin-top: 25px;
+    width: 35px;
+}
+
+.promo-airpods-wall {
+    background-image: url("images/promo_airpods_pro_order__d8xv36p4uwae_large.jpg");
+}
+
+.apple-card-wall {
+    background-image: url("images/apple-card.jpg");
+}
+
+.content-description {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(245, 245, 247);
+    height: 200px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.content-description p {
+    font-size: 12px;
+    color: rgb(132, 132, 137);
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-desc {
+    display: flex;
+    align-items: first baseline;
+    width: 1000px;
+    height: fit-content;
+}
+
+.here {
+    color: rgb(82, 82, 86);
+}
+
+.first-ro {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 254, 254);
+    width: 49%;
+    height: 60vh;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.tripoli-citadel-p {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+}
+.tripoli-citadel {
+    font-family: 'Poppins', sans-serif;
+    align-self: center;
+}
+.wall-ma {
+    background-image: url(images/Al-Mansouri_Grand_Mosque.jpeg);
+    width: 49%;
+    height: 80vh;
+    font-size: 25px;
+    border-radius: 25px;
+    align-items: center;
+    margin-right: 20px;
+}
+.mans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.wall-change {
+    margin-top: 100px;
+    width: 49%;
+    height: 57.70vh;
+    background-repeat: no-repeat;
+}
+.change {
+    height: 57.5vh;
+    margin-top: 100px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+.smaller-grand {
+    font-size: 47px;
+}
+.destroy {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.diff {
+    background-image: url(images/mosque2.jpg);
+}
+
+.diffe {
+    background-image: url(images/mosqq.jpg);
+}
+.smalleh {
+    width: 70%;
+    height: 40ch;
+    margin-bottom: 50px;
+}
+.rounder {
+    border-radius: 25px;
+}
+
+.saboun1 {
+    background-image: url(images/saboun1.jpg);
+}
+.saboun2 {
+    background-image: url(images/SABOUN21.jpg);
+}
+.saboun3 {
+    background-image: url(images/saboun3.jpg);
+}
+.mosquea {
+    background-image: url(images/Al-Mansouri_Grand_Mosque.jpeg);
+}
+
+.translate {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.biger {
+    height: 70vh;
+}
+
+.citadel1 {
+    background-image: url(images/citadel1.jpg);
+}
+
+.citadel2 {
+    background-image: url(images/citadel4.jpeg);
+}
+
+.citadel3 {
+    background-image: url(images/citadel5.jpeg);
+}
+
+.smallleh {
+    font-size: 40px;
+}
+
+.rtl {
+    direction: rtl;
+    text-align: start;
+    font-size: 20px;
+}
