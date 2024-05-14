@@ -313,9 +313,10 @@
     flex-direction: column;
     background-color: rgb(255, 254, 254);
     width: 49%;
-    height: 60vh;
+    height: fit-content;
     margin-left: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10vh;
+
 }
 
 .tripoli-citadel-p {
