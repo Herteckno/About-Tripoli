@@ -401,7 +401,7 @@
 }
 
 .biger {
-    height: 100vh;
+    height: fit-content;
 }
 
 .citadel1 {
